@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GroovBot {{guild_name}}</title>
+        <link rel="stylesheet" type="text/css" href="static/index.css" />
+        <style>
+            body {
+                background-image: url("https://raw.githubusercontent.com/CodeWithSwastik/Dashboard-Tutorials/main/Part%203/static/bg.png");
+                background-size: 40%;
+                color: #fff;
+            }
+            h1,
+            h2 {
+                text-align: center;
+            }
+            button {
+            background-color: #000000;
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0px;
+            }
+            button:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+
+            .sidenav {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #000000;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <font face= "arial">
+            <h1>Dashboard for {{guild_name}}</h1>
+            <h2>Logged in as {{username}}#{{userid}}</h2>
+            <div class="sidenav">
+                <a href="/dashboard/{{guild.id}}"><button>Dashboard</button></a>
+                <a href="/dashboard/{{guild.id}}/settings"><button>Settings</button></a>
+                <a href="/dashboard/{{guild.id}}/music"><button>Music</button></a>
+                <a href="/dashboard/{{guild.id}}/reaction_roles"><button>ReactionRoles</button></a>
+                <a href="/dashboard/{{guild.id}}/fun"><button>Fun</button></a>
+                <a href="/dashboard/{{guild.id}}/other"><button>Other</button></a>
+            </div>
+            
+        </font>
+    </body>
+</html>

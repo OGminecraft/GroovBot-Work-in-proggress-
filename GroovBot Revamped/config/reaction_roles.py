@@ -13,7 +13,7 @@ reaction_roles = {
 
 reaction_roles = {
     messageid: [
-        ("emoji", roleid),#Pink
+        ("emoji", roleid),
         ("emoji", roleid)
     ]
 }

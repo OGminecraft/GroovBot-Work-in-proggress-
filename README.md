@@ -7,29 +7,30 @@ Sorry if i forgot any thing
 
 Format:
 
-reaction_roles = {
+     reaction_roles = {
 
-    messageId: [
+        messageId: [
 
-    ("emoji", "roleId"),
-    
-    ("emoji", "roleId")
-    
-    ]
-    
-}
+        ("emoji", "roleId"),
+
+        ("emoji", "roleId")
+
+        ]
+
+    }
 and for if you want it to work with more that one message you can 
 
 Format:
-reaction_roles = {
-    messageId: [
-        ("emoji", roleId"),
-        ("emoji", "roleId")
-    ],
-    messageId: [
-        ("emoji", "roleId")
-    ]
-}
+
+    reaction_roles = {
+        messageId: [
+            ("emoji", roleId"),
+            ("emoji", "roleId")
+        ],
+        messageId: [
+            ("emoji", "roleId")
+        ]
+    }
 
 # config 
 its kinda self exslpanitory 

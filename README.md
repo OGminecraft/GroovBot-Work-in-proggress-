@@ -9,8 +9,8 @@ Format:
 
      reaction_roles = {
         messageId: [
-        ("emoji", "roleId"),
-        ("emoji", "roleId")
+             ("emoji", "roleId"),
+             ("emoji", "roleId")
         ]
     }
 and for if you want it to work with more that one message you can 

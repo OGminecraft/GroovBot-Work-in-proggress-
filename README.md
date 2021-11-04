@@ -19,7 +19,7 @@ Format:
 
     reaction_roles = {
         messageId: [
-            ("emoji", roleId"),
+            ("emoji", "roleId"),
             ("emoji", "roleId")
         ],
         messageId: [
